@@ -1,36 +1,28 @@
 // 足し算
-const ans = 1 + 2;
+var ans = 1 + 2;
 console.log(ans);
-
-const i = 20;
-const j = 10;
-const ans1 = i + j;
+var i = 20;
+var j = 10;
+var ans1 = i + j;
 console.log(ans1);
-
 // 引き算
-const ans2 = i - j;
+var ans2 = i - j;
 console.log(ans2);
-
 // 掛け算
-const ans3 = i * j;
+var ans3 = i * j;
 console.log(ans3);
-
 // 割り算
-const ans4 = i / j;
+var ans4 = i / j;
 console.log(ans4);
-
-const x = 3;
-const y = 2;
-const ans5 = x / y;
+var x = 3;
+var y = 2;
+var ans5 = x / y;
 console.log(ans5);
-
 // 余り
-const ans6 = x % y;
+var ans6 = x % y;
 console.log(ans6);
-
 // べき乗
-const ans7 = x ** y;
+var ans7 = Math.pow(x, y);
 console.log(ans7);
-
-const ans8 = x * x;
+var ans8 = x * x;
 console.log(ans8);
