@@ -1,4 +1,4 @@
-console.log('Hello World!');
+const pi = 3.14;
+console.log(pi);
 
-const str: string = 'Hello!';
-console.log(str);
+// pi = 3;
