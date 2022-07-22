@@ -1,4 +1,16 @@
-console.log('Hello World!');
+let color;
+let colorName; // キャメルケース、ローワーキャメルケース
+let myColorName;
 
-const str: string = 'Hello!';
-console.log(str);
+let favoriteFood = 20; // bad
+
+let _color;
+let $name;
+
+let name1;
+let _name1;
+
+let foo = 'small';
+let Foo = 'big';
+console.log(foo);
+console.log(Foo);
