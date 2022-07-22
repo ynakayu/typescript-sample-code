@@ -1,4 +1,8 @@
-console.log('Hello World!');
+const color = 'red';
+console.log(typeof(color));
 
-const str: string = 'Hello!';
-console.log(str);
+const num = 123;
+console.log(typeof(num));
+
+const b = true;
+console.log(typeof(b));
