@@ -1,4 +1,10 @@
-console.log('Hello World!');
+const x = 1;
+const y = 2;
+const z = 3;
 
-const str: string = 'Hello!';
-console.log(str);
+const ans1 = x + y * z;
+console.log(ans1);
+
+const ans2 = (x + y) * z;
+console.log(ans2);
+
