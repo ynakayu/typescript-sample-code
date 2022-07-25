@@ -1,4 +1,9 @@
-console.log('Hello World!');
+const firstName = 'Yuta';
+const lastName = 'Nakamura';
 
-const str: string = 'Hello!';
-console.log(str);
+const message1 = 'Hello! I am ' + firstName + ' ' + lastName + '.';
+console.log(message1);
+
+const message2 = `Hello! 
+I am ${firstName} ${lastName}.`;
+console.log(message2);
