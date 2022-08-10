@@ -1,0 +1,23 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server & tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ynakayu/typescript-sample-code.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/ynakayu/typescript-sample-code/issues"
+  },
+  "homepage": "https://github.com/ynakayu/typescript-sample-code#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
