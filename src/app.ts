@@ -1,10 +1,17 @@
-const temperature = 28;
+// 例題
+// テストの点数xによって、通知表の成績をコンソールに出力するプログラム
+// 90点以上 A
+// 80点以上 B
+// 60点以上 C
+// 60点未満 D
 
-if(temperature > 28) { // 比較演算子、true / false
-  console.log('ON!');
+const x = 59;
+if(x >= 90) {
+  console.log('A');
+} else if(x >= 80) {
+  console.log('B');
+} else if (x >= 60) {
+  console.log('C');
 } else {
-  console.log('OFF!');
+  console.log('D');
 }
-
-console.log(29 > 28); // true
-console.log(28 > 28); // false
