@@ -1,13 +1,18 @@
 class User {
   name: string = '';
-  age: number = 0;
+  private age: number = 0;
+
+  constructor(name: string, age: number) {
+    this.name = name;
+    this.age = age;
+  }
+
+  public isAdult(): boolean {
+    return this.age >= 18;
+  }
+
 }
 
-const olivia = new User();
-console.log(olivia.name);
-console.log(olivia.age);
+const olivia = new User('Olivia', 23);
+const liam: User = new User('Liam', 25);
 
-olivia.name = 'Olivia';
-olivia.age = 23;
-console.log(olivia.name);
-console.log(olivia.age);
