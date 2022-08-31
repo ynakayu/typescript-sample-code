@@ -1,13 +1,29 @@
 class User {
   name: string = '';
-  age: number = 0;
+  private age: number = 0;
+
+  constructor(name: string, age: number) {
+    this.name = name;
+    this.age = age;
+  }
+
+  public isAdult(): boolean {
+    return this.age >= 18;
+  }
+
 }
 
-const olivia = new User();
-console.log(olivia.name);
-console.log(olivia.age);
+class AdminUser extends User {
+  adminRole: number = 1;
 
-olivia.name = 'Olivia';
-olivia.age = 23;
-console.log(olivia.name);
-console.log(olivia.age);
+  public sayAdminRole() {
+    console.log(`My adminRole is ${this.adminRole}.`);
+  }
+
+  public override isAdult(): boolean {
+    return true;
+  }
+}
+
+const emma = new AdminUser('Emma', 0);
+console.log(emma.isAdult());
