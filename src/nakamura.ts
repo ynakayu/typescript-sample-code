@@ -1,2 +1,7 @@
-export const name = 'Nakamura';
-export const age = 20;
+// export const getNakamuraName = () => {
+//   return 'Yuta Nakamura';
+// };
+
+export function getNakamuraName() {
+  return 'Yuta Nakamura'
+}
