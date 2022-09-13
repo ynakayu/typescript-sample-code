@@ -1,2 +1,2 @@
-import {name, age} from './nakamura.js';
-console.log(name, age);
+import {myName, age as myAge} from './nakamura.js';
+console.log(myName, myAge);
