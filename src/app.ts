@@ -7,7 +7,7 @@
 // ※消費税は考慮しないものとする。 
 // 解答例ではアロー関数を使用。
 
-const getPrice = (unitPrice: number, n: number) {
+const getPrice = (unitPrice: number, n: number) => {
   return unitPrice * n;
 };
 
